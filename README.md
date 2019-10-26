@@ -4,8 +4,12 @@ The challenges faced by the visually impaired people in reading printed texts in
 
 
 METHODOLOGY:
+
+
 Image acquisition:  In this step, the images of the text can be captured by the inbuilt camera. Depending on the camera used, the quality of the image is captured. We are using the external webcam to capture an image of the text.
 Image pre-processing: This step consists of colour to gray scale conversion, edge detection, noise removal, bending and cutting and thresholding. The image is converted to gray scale as many OpenCV functions require the input parameter as a gray scale image. Bilateral filter is used for noise removal. 
+
+
 Image to text conversion: The above diagram 4 shows the flow of Text-To-Speech. The first block is the image pre- processing modules and the OCR. It converts the pre-processed image, which is in .png or .jpg form, to a .txt file. We are using the Tesseract OCR .
 
 
